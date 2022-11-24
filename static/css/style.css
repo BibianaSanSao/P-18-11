@@ -1,0 +1,107 @@
+/*fonts used from Google Font*/
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Source+Serif+Pro:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+/*style the body*/
+body{
+    background-color: white;
+    padding-left: 40px;
+    padding-right: 40px;       
+}
+
+/*row*/
+/*column on the left*/
+.row .col-md-6 .left {
+   background-color: #F4DADB;
+}
+
+/*text on the left*/
+.row .text-a1{
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 97.8px;
+    color:#80ADAD;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
+  }
+
+/*column on the right*/
+.row .col-md-6 .right{
+    align-items: center;  
+    background-color: #222222;
+  }
+
+/*text on the right*/
+.row .text-a2{
+    font-family: 'Lora', serif;
+    color: #222222;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: justify;
+    align-items: center;
+    padding-top: 20px;
+  }
+
+  .wrapper{
+    display: grid;
+    column-count: 2;
+    max-width: 1200px;
+    grid-template-columns: 400px 800px;
+    margin: 0 auto;
+  }
+  .left{
+    background-color:  #80ADAD;
+    font-family: 'Hammersmith One', sans-serif;
+    font-size: 97.8px;
+    color:white;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
+  }
+  .right{
+    font-family: 'Lora', serif;
+    color: #222222;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    text-align: justify;
+    align-items: center;
+    background-color:#F4DADB;
+  }
+
+/*Contact Page*/ 
+h2{
+    font-family: 'Lora', serif;
+    font-size: 48px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    color: #222222;
+    font-weight: bold;  
+}
+/*Form Style*/ 
+.form-group{
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: #80ADAD;
+    color: #80ADAD;
+    font-weight: bold;
+}
+.form-control{
+    border: #80ADAD;
+}
+button{
+    background-color: #80ADAD;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 25%;
+    padding: 12px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}

@@ -1,7 +1,24 @@
-this is above<br>
-{{ extends 'base.html' }}
-{{ block content }}
-<p>fadlkfhaldfhaldfjkal</p>
-
-this is bellow<br>
-{{ onblock}}
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- CSS -->
+        <link rel="stylesheet" href='/static/css/style.css'/>
+        <title>ABOUT</title>
+    </head>
+    <body>
+        {% extends "base.html" %}
+        {% block content %}
+            <div class="wrapper">
+                <div class="left">my<br>projects</div>
+            
+                <div class="right">My name is Bibiana Santos Saorin, an enthusiastic Web Designer and Developer student at Napier University.<br><br>
+                I started this degree thinking that the coding part was the most enjoyable one. Learning code languages, using logic, fixing the errors and making the web/app work, was what most attracted my attention when I had to choose this degree.<br><br>
+                Since I was a kid, I have been very creative, but I never thought about being a professional designer. I enjoy creating my projects, choosing the colours, fonts, and how to display the content, and moving things around for a better look. By studying UX and UI, I aim to make my designs user-friendly.<br><br>
+                It is just the beginning of my career, and I know I still have a lot to learn, but this is what I like the most about being a Web Designer and Developer. <br><br>
+                OK, stop talking and let's see what I have done for now:</div>
+            </div>   
+        {% endblock %}
+    </body>
+</html>

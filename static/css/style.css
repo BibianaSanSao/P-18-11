@@ -3,12 +3,68 @@
 @import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Source+Serif+Pro:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+
 /*style the body*/
 body{
     background-color: white;
     padding-left: 40px;
     padding-right: 40px;       
 }
+
+
+/*navbar area style*/
+.navbar {
+  background-color:white;
+  height:120px;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+/*navbar image style*/
+.navbar .logo{
+  width: 140px;
+  width: 140px;
+  float: left;
+  align-items: center;
+}
+
+/*navbar text style*/
+.navbar .menu{
+  background-color: white;
+  font-weight: lighter;
+  font-size: larger;
+  float: right;
+  text-align: right;
+  float: right;
+  margin-top: 45px;
+}
+
+
+
+.navbar .menu li {
+  display: inline;
+  font-family:'Anonymous Pro', monospace;
+  font-size: 25px;
+  color: #222222;
+}
+
+.navbar .menu li + li {
+  margin-left: 35px;
+}
+
+/*navbar link style*/
+.navbar .menu  a:link {
+  color: #222222;
+  text-decoration: none;
+}
+/*navbar hover style*/
+.navbar .menu a:hover{
+  color: #F4DADB;
+}
+
+
+
+
 
 /*row*/
 /*column on the left*/

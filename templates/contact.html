@@ -8,35 +8,40 @@
     <title>CONTACT</title>
 </head>
 <body>
-    <article>
-        <h2>If you like my work,</h2>
-        <h2>just get in touch!</h2>
-      </article>
+    {% extends "base.html" %}
+    {% block content %}
+   
+        <article>
+          <h2>If you like my work,</h2>
+          <h2>just get in touch!</h2>
+        </article>
     
-    <form action="{{ url_for('form')}}" method="post">
-        <div class="form-group">
-          <label for="firstName">First Name</label>
-          <input type="firstName" class="form-control" id="firstName">
-        </div>
+        <form action="{{ url_for('form')}}" method="post">
+            <div class="form-group">
+              <label for="firstName">First Name</label>
+              <input type="firstName" class="form-control" id="firstName">
+            </div>
 
-        <div class="form-group">
-          <label for="lastName">Last Name</label>
-          <input type="lastName" class="form-control" id="lastName">
-        </div>
-  
-        <div class="form-group">
-          <label for="email">Email</label>
-          <input type="email" class="form-control" id="email" placeholder="name@example.com">
-        </div>
-        
-        <div class="form-group">
-          <label for="message">Message</label>
-          <textarea class="form-control" id="message" rows="3"></textarea>
-        </div>
+            <div class="form-group">
+              <label for="lastName">Last Name</label>
+              <input type="lastName" class="form-control" id="lastName">
+            </div>
+      
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="name@example.com">
+            </div>
+            
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea class="form-control" id="message" rows="3"></textarea>
+            </div>
 
-        <div class="form-group">
-           <button type="submit">SEND</button>
-        </div>
-    </form>  
-</body>
+            <div class="form-group">
+              <button type="submit">SEND</button>
+            </div>
+        </form>  
+      
+      {% endblock %}
+    </body>
 </html>
